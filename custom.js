@@ -34,7 +34,7 @@ form.addEventListener('submit', (e) => {
         return;
     }
 
-    const apiKey = '7c052b49263dcfbaef3d3e18b2aa6901'; // Reemplaza esto con tu clave de API de OpenWeatherMap
+    const apiKey = '7c052b49263dcfbaef3d3e18b2aa6901';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}&units=metric`;
 
     // Limpia el contenido anterior
